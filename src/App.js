@@ -7,18 +7,19 @@ import React, {useState } from "react"
 import About from './pages/About';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import Tictac from './pages/Tictac';
 
 function App(props) {
 
   return (
     <div>
       <Header/>
-      {/* <Main/> */}
       <Nav/>
       <BrowserRouter>
       <Routes>
         <Route path='/'element={<Main/>} />
         <Route path='/about' element={<About/>}/>
+        <Route path='/Tictac' element={<Tictac/>}/>
       </Routes> 
      </BrowserRouter>
     <Footer/>

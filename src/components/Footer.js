@@ -1,8 +1,8 @@
 function Footer() {
     return (
-        <div className="Title">
-            <h1>Footer</h1>
-            </div>
+        <div className="Footer">
+            <h4>Created By: Rosanne Anderson</h4>
+        </div>
     )
 }
 export default Footer
