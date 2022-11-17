@@ -12,6 +12,10 @@ code {
     monospace;
 }
 *{
-  color: black;
-  background-color: red;
+
+}
+
+.ticTacSqu {
+  height: 60px;
+  width: 60px;
 }
