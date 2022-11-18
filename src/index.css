@@ -1,4 +1,6 @@
 body {
+  display: flex;
+  text-align: center;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -16,6 +18,18 @@ code {
 }
 
 .ticTacSqu {
+  /* flex-direction: column; */
+  display: inline-block;
+  align-items: center;
   height: 60px;
   width: 60px;
+  border-style: solid;
+  border-color: blue;
+  
+}
+.ticBoard{
+  font-size: 0;
+}
+.row{
+  font-size: 0;
 }
