@@ -16,7 +16,7 @@ const Main = () => {
 
   const setSqu = (sq) => {
     setIsTurn(current => !current)
-    console.log(turn)
+    console.log(isTurn)
   };
 
   return (
