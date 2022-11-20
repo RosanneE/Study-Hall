@@ -13,6 +13,7 @@ const Main = () => {
   const setSqu = (sq) => {
     setIsTurn((current) => !current);
     console.log(isTurn);
+    // if (){}
   };
 
   return (
@@ -22,7 +23,7 @@ const Main = () => {
         <div className="row">
           <button
             className="ticTacSqu"
-            onClick={setSqu}
+            onClick={this.setSqu}
             style={{
               backgroundColor: isTurn ? "red" : "purple",
               backgroundSize: "cover",
