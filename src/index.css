@@ -25,6 +25,7 @@ code {
   width: 60px;
   border-style: solid;
   border-color: blue;
+  background-color: white;
 }
 .ticBoard{
   font-size: 0;
