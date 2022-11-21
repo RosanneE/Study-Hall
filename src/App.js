@@ -11,6 +11,8 @@ import Tictac from './pages/Tictac';
 
 function App(props) {
 
+  const [squares, setSquares] = useState
+  
   return (
     <div>
       <Header/>
