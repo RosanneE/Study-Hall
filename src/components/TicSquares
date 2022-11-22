@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-
-const MapSquares = ({ squares }) => {
-  console.log(squares);
-};
+function Square(props) {
+  
+}
