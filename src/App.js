@@ -12,7 +12,7 @@ import Tictac from './pages/Tictac';
 function App(props) {
 
   const [squares, setSquares] = useState
-  
+
   return (
     <div>
       <Header/>
@@ -21,7 +21,7 @@ function App(props) {
       <Routes>
         <Route path='/'element={<Main/>} />
         <Route path='/about' element={<About/>}/>
-        <Route path='/Tictac' element={<Tictac/>}/>
+        {/* <Route path='/Tictac' element={<Tictac/>}/> */}
       </Routes> 
      </BrowserRouter>
     <Footer/>
